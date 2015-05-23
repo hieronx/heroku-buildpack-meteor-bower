@@ -1,0 +1,5 @@
+echo "Installing bower" | indent
+run_npm "install bower -g"
+echo "Bower installed" | indent
+echo "Installing bower dependencies" | indent
+HOME="$BUILD_DIR" bower install |indent
